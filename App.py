@@ -4,7 +4,7 @@ import pickle as pkl
 import joblib
 import streamlit as st
 
-model = joblib.load('MIPML.pkl')
+model = joblib.load('MIPML.joblib')
 
 st.header('HEALTH INSURANCE PRICE  CHANGES PREDICTOR MODEL')
 
